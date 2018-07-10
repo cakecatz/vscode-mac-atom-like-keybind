@@ -1,0 +1,101 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+shift+t",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "alt+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+x",
+        "command": "editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+a",
+        "command": "list.selectAll",
+        "when": "listFocus && listSupportsMultiselect && !inputFocus"
+    },
+    {
+        "key": "alt+z",
+        "command": "undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "alt+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "workbench.action.findInFiles",
+        "when": "!searchInputBoxFocus"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "workbench.view.search",
+        "when": "!searchViewletVisible"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "search.action.focusActiveEditor",
+        "when": "searchInputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "alt+,",
+        "command": "workbench.action.openSettings"
+    },
+    {
+        "key": "shift+alt+\\",
+        "command": "revealInExplorer"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "alt+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+]
